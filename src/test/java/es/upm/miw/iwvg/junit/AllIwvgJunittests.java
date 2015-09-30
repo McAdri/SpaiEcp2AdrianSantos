@@ -8,6 +8,7 @@ import org.junit.runners.Suite.SuiteClasses;
 @SuiteClasses({
     PointTest.class, 
     FractionTest.class,
+    UserTest.class,
 })
 public class AllIwvgJunittests {
 
