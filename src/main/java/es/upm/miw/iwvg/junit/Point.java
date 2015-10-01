@@ -43,4 +43,8 @@ public class Point {
         return "Point[" + x + "," + y + "]";
     }
     
+    public Point puntoMedio(Point point) {
+    	return new Point((this.x + point.x)/2, (this.y + point.y)/2);
+    }
+    
 }
