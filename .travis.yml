@@ -1,0 +1,13 @@
+language: java
+ 
+branches:
+  only:
+    - master
+    - develop
+    
+notifications:
+  email:
+    recipients:
+      - adriansr91@gmail.com
+      
+script: mvn verify
