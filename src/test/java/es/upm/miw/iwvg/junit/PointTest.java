@@ -58,5 +58,23 @@ public class PointTest {
         assertEquals(medio.getX(), 15, 0.0);
         assertEquals(medio.getY(), 15, 0.0);
     }
+    
+    @Test
+    public void testSetX() {
+    	Point point1 = new Point(1,1);
+    	
+    	point1.setX(2);
+    	
+        assertEquals(point1.getX(), 2, 0.0);
+    }
+    
+    @Test
+    public void testSetY() {
+    	Point point1 = new Point(1,1);
+    	
+    	point1.setY(2);
+    	
+        assertEquals(point1.getY(), 2, 0.0);
+    }
 
 }
