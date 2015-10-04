@@ -38,5 +38,10 @@ public class User {
     public String getFamilyName() {
         return this.familyName;
     }
+    
+    public String fullNameCapitals()
+    {
+    	return (this.name + " " + this.familyName).toUpperCase();
+    }
 
 }
