@@ -42,4 +42,9 @@ public class UserTest {
      public void testfullNameCapitals() {
          assertEquals("FERNANDO ALONSO", user.fullNameCapitals());
      }
+     
+     @Test
+     public void testshortName() {
+         assertEquals("F. A", user.shortName());
+     }
 }
