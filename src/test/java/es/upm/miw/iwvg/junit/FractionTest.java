@@ -1,6 +1,8 @@
 package es.upm.miw.iwvg.junit;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -29,6 +31,12 @@ public class FractionTest {
     public void testResto() {
         assertEquals(0.0, fr.getNumerator() % fr.getDenominator(), 10e-5);
     }
+   
+   @Test
+   public void testPropia() {
+       assertFalse(fr.isPropia());
+       assertTrue(new Fraction(1,2).isPropia());
+   }
 
     
 }
