@@ -43,5 +43,9 @@ public class User {
     {
     	return (this.name + " " + this.familyName).toUpperCase();
     }
-
+    
+    public String shortName()
+    {
+    	return this.name.substring(0, 1) + ". " + this.getFamilyName().substring(0,1);
+    }
 }
