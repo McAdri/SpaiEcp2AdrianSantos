@@ -31,6 +31,11 @@ public class DecimalCollectionTest {
 
      @Test
      public void testLower() {
-         assertEquals(1.3, dec.lower(),0);    }    
+         assertEquals(1.3, dec.lower(),0);    }
+     
+     @Test
+     public void testSumMaxMin(){
+    	 assertEquals(4.3, dec.sumMaxMin(), 0);
+     }
 
 }
