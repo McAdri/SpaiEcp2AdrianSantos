@@ -25,8 +25,12 @@ public class DecimalCollectionTest {
     public void testSum() {
         assertEquals(6.8, dec.sum(),0);    }    
 
-    @Test
-    public void testHigher() {
-        assertEquals(3.0, dec.higher(),0);    }    
+     @Test
+     public void testHigher() {
+         assertEquals(3.0, dec.higher(),0);    }        
+
+     @Test
+     public void testLower() {
+         assertEquals(1.3, dec.lower(),0);    }    
 
 }
