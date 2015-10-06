@@ -46,5 +46,9 @@ public class DecimalCollection {
         }
         return lower;
     }
+    
+    public double sumMaxMin(){
+    	return this.lower() + this.higher();
+    }
 
 }
