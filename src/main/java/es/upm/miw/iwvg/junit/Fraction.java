@@ -65,4 +65,8 @@ public class Fraction {
     	return this.numerator < this.denominator;
     }
     
+    public boolean isMinor(Fraction fr){
+    	return fr.decimal() < this.decimal();
+    }
+    
 }

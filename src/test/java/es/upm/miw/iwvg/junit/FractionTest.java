@@ -37,6 +37,11 @@ public class FractionTest {
        assertFalse(fr.isPropia());
        assertTrue(new Fraction(1,2).isPropia());
    }
+   
+   @Test
+   public void testIsMinor() {
+       assertTrue(fr.isMinor(new Fraction(1,2)));
+   }
 
     
 }
